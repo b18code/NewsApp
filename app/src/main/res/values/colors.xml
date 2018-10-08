@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="colorPrimary">#3F51B5</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <!--The color of UI controls such as check boxes, radio buttons, and edit text boxes-->
+    <color name="colorAccent">#FF4081</color>
+
+    <!--Color of the divider in the ListView of the activity_main.xml-->
+    <color name="colorDivider">#01579B</color>
+
+</resources>

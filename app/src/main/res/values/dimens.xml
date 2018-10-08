@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Padding for the LinearLayout in the the news_list_item-->
+    <dimen name="linear_layout_padding">16dp</dimen>
+
+    <!-- Margin for the textViews in the the news_list_item-->
+    <dimen name="textView_layout_margin">10dp</dimen>
+
+    <!-- MarginBottom for the textView ID: title_text_view in the the news_list_item-->
+    <dimen name="textView_layout_margin_title">12dp</dimen>
+
+    <!-- Margin for the textViews in the the news_list_item,
+         but only for the ID: author_name textView-->
+    <dimen name="textView_layout_margin_author">5dp</dimen>
+
+    <!-- Divider Height for the category_list.xml -->
+    <dimen name="listView_divider_height">4dp</dimen>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/linear_layout_padding"
+    android:paddingLeft="@dimen/linear_layout_padding"
+    android:paddingRight="@dimen/linear_layout_padding"
+    android:paddingStart="@dimen/linear_layout_padding">
+
+    <TextView
+        android:id="@+id/section_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/textView_layout_margin"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:textAllCaps="true"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:text="@string/section" />
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/textView_layout_margin_title"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        tools:text="@string/title" />
+
+    <TextView
+        android:id="@+id/date_published_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        tools:text="@string/date_published" />
+
+    <TextView
+        android:id="@+id/author_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/textView_layout_margin_author"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        tools:text="@string/author" />
+
+</LinearLayout>
+

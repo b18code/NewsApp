@@ -1,0 +1,26 @@
+<resources>
+
+    <!--Name of the app is displayed in the action bar-->
+    <string name="app_name">News App</string>
+
+    <!-- Text to display in the list when there are no news items
+         for MainActivity.java [CHAR LIMIT=NONE] -->
+    <string name="no_news">No news found.</string>
+
+    <!-- Error message when there is no internet connectivity
+         for MainActivity.java[CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- TextView ID:title_text_view tools:text [CHAR LIMIT=20] -->
+    <string name="section">Section</string>
+
+    <!-- TextView ID:section_text_view tools:text [CHAR LIMIT=20] -->
+    <string name="title">Title</string>
+
+    <!-- TextView ID:date_published_text_view tools:text [CHAR LIMIT=20] -->
+    <string name="date_published">Date Published</string>
+
+    <!-- TextView ID:author_name_text_view tools:text [CHAR LIMIT=20] -->
+    <string name="author">Author\'s Name(s)</string>
+
+</resources>
